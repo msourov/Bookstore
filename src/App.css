@@ -1,38 +1,43 @@
-.App {
-  text-align: center;
+.bookstore {
+    padding: 3em;
+    display:flex;
+    justify-content:space-around;
+    flex-direction: column;
+    background-color: rgb(242, 242, 211);
+}
+.header {
+    /* border: 2px solid rebeccapurple; */
+    padding: .5em;
+}
+.title {
+    width: 50%;
+    margin: auto;
+    font-size: 3rem;
+    letter-spacing: 0.9px;
+    background: linear-gradient(
+        90deg,
+        rgb(100, 50, 10) 0%,
+        rgb(239, 195, 160) 100%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: fit-content;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.btn {
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* background-color: rgb(23, 146, 195); */
+    background-color: #001F3F;
+    color: aliceblue;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+.filter {
+    display: flex;
+    padding: 30px;
+    align-items: center;
+    padding:auto;
+    justify-content:space-evenly;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

@@ -1,29 +1,13 @@
 .bookstore {
-    padding: 3em;
+    /* padding: 3em; */
     display:flex;
+    flex-wrap: wrap;
     justify-content:space-around;
     flex-direction: column;
+    padding-bottom: 40px;
     background-color: rgb(242, 242, 211);
 }
-.header {
-    /* border: 2px solid rebeccapurple; */
-    padding: .5em;
-}
-.title {
-    width: 50%;
-    margin: auto;
-    font-size: 3rem;
-    letter-spacing: 0.9px;
-    background: linear-gradient(
-        90deg,
-        rgb(100, 50, 10) 0%,
-        rgb(239, 195, 160) 100%
-    );
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    width: fit-content;
-}
+
 
 .btn {
     font-size: 16px;
@@ -31,13 +15,14 @@
     /* background-color: rgb(23, 146, 195); */
     background-color: #001F3F;
     color: aliceblue;
+    cursor: pointer;
 }
 
 .filter {
     display: flex;
-    padding: 30px;
+    padding-bottom: 20px;
     align-items: center;
-    padding:auto;
+    padding-top:50px;
     justify-content:space-evenly;
 
 }

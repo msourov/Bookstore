@@ -1,0 +1,12 @@
+.about-similar-books {
+    font-size: 20px;
+    color: rgb(136, 11, 11);
+    text-align: center;
+    margin: 30px auto;
+    padding-bottom: 5px;
+    border-bottom: 1px solid gray;
+}
+.similar-books-list {
+    display: flex;
+    justify-content: space-evenly;
+}

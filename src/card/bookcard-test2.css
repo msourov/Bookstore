@@ -35,8 +35,9 @@
     object-fit: cover;
   }
   
-  .info-container {
+  .card-info-container {
     padding: 0px;
+    text-align: center;
   }
   
   .book-name {

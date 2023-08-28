@@ -1,0 +1,95 @@
+/* * {
+  margin: 5px 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+
+.details-container {
+    display: flex;
+    justify-content: center;
+    margin: 70px;
+    margin-left: 300px;
+    align-items: flex-start;
+}
+img {
+  margin-right: 50px;
+  width: 240px;
+  height: 320px;
+  /* max-width: 100%; */
+}
+
+.image-container {
+  flex: 1; /* Take up available space */
+  padding: 20px; /* Add spacing around the image */
+}
+
+.image-container img {
+  max-width: 100%; /* Make sure the image doesn't exceed its container */
+  height: auto; /* Maintain aspect ratio */
+}
+.img-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.state {
+  margin-left: -50px;
+  margin-top: 20px;
+}
+.app-btn{
+  border: none;
+}
+.app-link{
+  margin-top: -5px;
+  padding: 5px;
+  margin-left: -50px;
+  background-color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 16px;
+  color: aliceblue;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.info-container {
+  flex: 2;
+  padding: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Center items horizontally */
+}
+
+.book-name {
+  font-size: 16px;
+  font-weight:600;
+}
+.summary, .state {
+  font-size: 14px;
+}
+.state {
+  font-weight: bold;
+}
+.genre {
+  display: flex;
+  align-items: flex-start;
+}
+.label {
+  margin-right: 5px; /* Add space between the label and genre types */
+  font-size: large;
+  margin-top: 12px;
+}
+.genre-types {
+  display: flex;
+  flex-wrap: wrap; /* Allow genre types to wrap to new lines */
+  gap: 5px; /* Add spacing between genre types */
+  max-width: 300px;
+}
+
+.genre-type-button {
+  font-size: small;
+  border: 1px solid slategray;
+  padding: 5px;
+  margin-left: 5px;
+  border-radius: 5px;
+  background-color: rgb(206, 211, 244);
+  cursor: pointer;
+}
